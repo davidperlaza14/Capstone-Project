@@ -9,7 +9,6 @@ import { Error404Page } from './pages/Error404';
 
 const App = () => {
   const { pathname } = window.location;
-  console.log(pathname, /\/projects\/*/.test(pathname));
   localStorage.setItem('pathname', pathname);
   const valor = localStorage.getItem('pathname');
 
