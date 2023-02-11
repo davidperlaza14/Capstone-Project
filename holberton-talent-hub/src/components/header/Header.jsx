@@ -9,38 +9,38 @@ export const Header = () => {
       <nav id="nav">
         <ul>
           <li>
-            <a href="#inicio" onclick="seleccionar()">
+            <a href="#inicio" onClick="seleccionar()">
               HOME
             </a>
           </li>
           <li>
-            <a href="#sobremi" onclick="seleccionar()">
-              ABOUT US
+            <a href="#sobremi" onClick="seleccionar()">
+              CV
             </a>
           </li>
           <li>
-            <a href="#skills" onclick="seleccionar()">
-              SKILLS
+            <a href="#skills" onClick="seleccionar()">
+              PROYECTS
             </a>
           </li>
           <li>
-            <a href="#curriculum" onclick="seleccionar()">
-              OUR HOLBIES{' '}
+            <a href="#curriculum" onClick="seleccionar()">
+              TALENT{' '}
             </a>
           </li>
           <li>
-            <a href="#portfolio" onclick="seleccionar()">
+            <a href="#portfolio" onClick="seleccionar()">
               TEAM CODERISE
             </a>
           </li>
           <li>
-            <a href="#contacto" onclick="seleccionar()">
+            <a href="#contacto" onClick="seleccionar()">
               CONTACT
             </a>
           </li>
         </ul>
       </nav>
-      <div className="nav-responsive" onclick="mostrarOcultarMenu()">
+      <div className="nav-responsive" onClick="mostrarOcultarMenu()">
         <i className="fa-solid fa-bars"></i>
       </div>
     </HeaderWrapper>
