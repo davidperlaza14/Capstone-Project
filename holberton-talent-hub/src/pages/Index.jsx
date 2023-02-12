@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import fondo from '../images/fondo.jpg'
+
 
 export const IndexWrapper = styled.section`
   & {
 
-    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1)), url('../images/fondo.jpg');
-    background-image: ../images/fondo.jpg;
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1)), url(${fondo});
     background-size: cover;
     height: 100vh;
     color: #e21c3d;
@@ -67,6 +68,7 @@ export const IndexWrapper = styled.section`
 export const IndexPage = () => {
   localStorage.setItem('coderise-talent:index-load', true);
   return (
+
     <IndexWrapper>
       <div className="contenido-banner">
         <h1>Holberton talent hub</h1>
