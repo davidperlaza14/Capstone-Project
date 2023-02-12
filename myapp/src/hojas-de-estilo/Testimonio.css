@@ -1,0 +1,113 @@
+.contenedor-testimonio {
+    width: 1000px;
+    height: 200px;
+    margin: 10px 10px 50px;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #252A2E;;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%) ;
+    color: #fff;
+
+}
+
+.imagen-david {
+    height: 60%;
+    width: auto;
+    border-radius: 50px;
+    margin-top: -80px ;
+    position: relative;
+    right: 10px;
+
+}
+.nombre, .lenguaje-Py, .Django-fremw, .aboutme, .bnt {
+    position: absolute;
+}
+.nombre {
+    z-index: 1;
+}
+.lenguaje-Py {
+    z-index: 2;
+}
+.Django-fremw {
+    z-index: 3;
+}
+.texto-aboutme {
+    z-index: 4; 
+}
+.bnt {
+    z-index: 5;
+}
+.nombre{
+    margin: -150px 0 0 -800px;
+}
+
+.lenguaje-Py{
+    margin: -150px 0 0 -150px;
+}
+.Django-fremw {
+    margin: -150px 0 0 500px;
+}
+
+.texto-aboutme{
+    font-size: 15px;
+}
+
+.bnt {
+    margin: 0 0 0 -500px;
+    padding-top: 100px 0 0 0 ; 
+    
+}
+.bnt{
+
+    /* background: red; */
+    width: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+    margin-top: 70px ;
+    
+}
+.btn-primary {
+    padding: 3px;
+    margin: 3px;
+    background-color: chocolate;
+    color: #fff;
+}
+.btn-secondary {
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(56, 255, 7);
+    color: #fff;
+}
+.btn-success{
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(40, 226, 243);
+    color: #fff;
+}
+.btn-danger{
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(0, 7, 207);
+    color: #fff;
+}
+.btn-warning{
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(246, 0, 0);
+    color: #fff;
+}
+
+
+
+.contenedor-texto-testimonio {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: -0px 10px 10px 0px; */
+}
+
+
