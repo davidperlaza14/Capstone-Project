@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const IndexWrapper = styled.section`
   & {
-    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1)), url(../images/fondo.JPG);
+
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1)), url('../images/fondo.jpg');
+    background-image: ../images/fondo.jpg;
     background-size: cover;
     height: 100vh;
     color: #e21c3d;
