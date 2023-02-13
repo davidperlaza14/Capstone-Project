@@ -1,4 +1,7 @@
 import ecommerce from '../../images/ecommerce.jpg'
+import talent1 from '../../images/talent1.jpg'
+import talent2 from '../../images/talent2.jpg'
+import talent3 from '../../images/talent3.jpg'
 import './Jobs.styles'
 
 export const Jobs = () => {
@@ -21,12 +24,15 @@ export const Jobs = () => {
                 <div className="talent-container">
                     <div>
                         <h2>Talent-1</h2>
+                        <img src={talent1} className="talent1-image" alt="talent1-image" />
                     </div>
                     <div>
                         <h2>Talent-2</h2>
+                        <img src={talent2} className="talent2-image" alt="talent2-image" />
                     </div>
                     <div>
                         <h2>Talent-3</h2>
+                        <img src={talent3} className="talent3-image" alt="talent3-image" />
                     </div>
                 </div>
             </section>
