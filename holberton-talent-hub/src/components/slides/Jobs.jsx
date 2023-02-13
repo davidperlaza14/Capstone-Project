@@ -16,6 +16,20 @@ export const Jobs = () => {
                 </p>
 
             </section>
+
+            <section>
+                <div className="talent-container">
+                    <div>
+                        <h2>Talent-1</h2>
+                    </div>
+                    <div>
+                        <h2>Talent-2</h2>
+                    </div>
+                    <div>
+                        <h2>Talent-3</h2>
+                    </div>
+                </div>
+            </section>
         </>
     );
 };

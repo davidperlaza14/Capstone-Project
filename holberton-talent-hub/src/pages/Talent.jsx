@@ -4,7 +4,7 @@ export const TalentPage = () => {
     <>
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
-          <h1>TALET </h1>
+          <h1>TALENT </h1>
 
           {indexLoad ? (
             <p>Like you read in our home page, we are a team of developers and designers who are passionate about technology and we are</p>
