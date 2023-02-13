@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const SlideWrapper = styled.section`
-.job-slide {
+    & .job-slide {
     background-color: #252a2e;
-}`
+    width 250px;
+    }
+`;
