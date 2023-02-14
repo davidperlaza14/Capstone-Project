@@ -15,7 +15,7 @@ export const FooterWrapper = styled.footer`
   }
 
   & .redes img {
-    width: 100px;
+    width: 150px;
   }
 
   & .footer .redes a {
