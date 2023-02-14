@@ -8,7 +8,7 @@ export const SlideWrapper = styled.section`
 
 & .job-slide {
   padding: 20px;    
-  background-color: #333333;
+  background-color: #1e2326;
   max-width: 90%;
   margin: auto;
   text-align: center;
@@ -25,7 +25,8 @@ export const SlideWrapper = styled.section`
 
 & .job-img {
   max-width: 90%;
-  box-shadow: 0 3px 13px 10px rgb(255 255 255 / 60%);
+  box-shadow: 0 3px 8px 8px rgb(255 255 255 / 50%);
+
 }
 
 & h1 {
@@ -37,7 +38,7 @@ export const SlideWrapper = styled.section`
   margin: auto;
   max-width: 90%;
   border: 1px solid black;
-  background: #df003b;
+  background: #515151;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -54,6 +55,7 @@ export const SlideWrapper = styled.section`
   color: black;
   font-family: 'Inconsolata';
   font-weight: bold;
+  border-radius: 20px;
   /*line-height: 120px;*/
   text-align: center;
   flex-grow: 1;  
@@ -61,6 +63,8 @@ export const SlideWrapper = styled.section`
 
 & .talent-img {
   max-width: 400px;
-  box-shadow: 0 3px 13px 10px rgb(0 0 0 / 80%);
+  box-shadow: 0 3px 13px 10px rgb(9 129 119 / 100%);
+  border-radius: 50%;
 }
 `;
+
