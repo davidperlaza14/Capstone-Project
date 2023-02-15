@@ -1,4 +1,5 @@
 import './App.css';
+import 'devicon/devicon.min.css';
 import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { IndexPage } from './pages/Index';
