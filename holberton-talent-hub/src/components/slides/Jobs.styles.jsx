@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const SlideWrapper = styled.section`
   & {
-    background: #1e2326;
+    background: #2D333D;
     margin: auto;
     padding: 0 10px;
   }
 
   & .job-container {
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #2D333D;
     max-width: 100%;
     margin: auto;
     text-align: center;
@@ -19,8 +19,7 @@ export const SlideWrapper = styled.section`
   & h1 {
     align: center;
     color: #8beeee;
-    padding: 10px;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   & .job-container p {
@@ -42,5 +41,9 @@ export const SlideWrapper = styled.section`
     border-radius: 20px;
     justify-content: space-around;
     text-align: center;
+  }
+
+  & .UserTalent.description p {
+    background-color: #515151;
   }
 `;

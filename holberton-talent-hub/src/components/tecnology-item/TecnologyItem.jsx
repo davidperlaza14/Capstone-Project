@@ -6,9 +6,11 @@ export const TecnologyItemWrapper = styled.li`
     width: 40%;
     display: flex;
     justify-content: space-between;
+    
   }
   i {
     margin-inline-end: 1rem;
+    
   }
 `;
 

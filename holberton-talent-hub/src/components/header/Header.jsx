@@ -9,32 +9,32 @@ export const Header = () => {
       <nav id="nav">
         <ul>
           <li>
-            <a href="#HOME" onClick="seleccionar()">
+            <a href="/" onClick="seleccionar()">
               HOME
             </a>
           </li>
           <li>
-            <a href="#CV" onClick="seleccionar()">
+            <a href="/cv" onClick="seleccionar()">
               CV
             </a>
           </li>
           <li>
-            <a href="#Projects" onClick="seleccionar()">
+            <a href="/projects" onClick="seleccionar()">
               PROJECTS
             </a>
           </li>
           <li>
-            <a href="#Talent" onClick="seleccionar()">
+            <a href="/talent" onClick="seleccionar()">
               TALENT{' '}
             </a>
           </li>
           <li>
-            <a href="#Team coderise" onClick="seleccionar()">
+            <a href="/team coderise" onClick="seleccionar()">
               TEAM CODERISE
             </a>
           </li>
           <li>
-            <a href="#Contact" onClick="seleccionar()">
+            <a href="/contact" onClick="seleccionar()">
               CONTACT
             </a>
           </li>
