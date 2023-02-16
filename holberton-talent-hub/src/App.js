@@ -4,7 +4,7 @@ import { Header } from './components/header/Header';
 import { IndexPage } from './pages/Index';
 import { ProjectsPage } from './pages/Projects';
 import { CvPage } from './pages/Cv';
-import { TalentPage } from './pages/Talent';
+import { Talent } from './pages/Talent';
 import { Error404Page } from './pages/Error404';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
         ) : /^\/projects\/*$/.test(pathname) ? (
           <ProjectsPage />
         ) : /^\/talent\/*$/.test(pathname) ? (
-          <TalentPage />
+          <Talent />
         ) : (
           <Error404Page />
         )}
