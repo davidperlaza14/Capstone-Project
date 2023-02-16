@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { SlideWrapper } from './Jobs.styles';
+import { SlideWrapper } from './ProjectOverview.styles';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
-import { images, usersTalent } from './Jobs.data';
+import { images, usersTalent } from './ProjectOverview.data';
 import { UserCard } from '../user-card/UserCard';
 
-export const Jobs = () => {
+export const ProjectOverview = () => {
   return (
     <SlideWrapper>
       <div className="job-slide">

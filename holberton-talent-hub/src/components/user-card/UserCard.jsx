@@ -11,7 +11,7 @@ export const UserCardWrapper = styled.article`
     max-width: 400px;
     padding: 20px;
     border: 1px solid black;
-    background-color: #1E2326;
+    background-color: #1e2326;
     color: white;
     font-family: 'Inconsolata';
     font-size: 17px;
@@ -24,7 +24,7 @@ export const UserCardWrapper = styled.article`
   & header {
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 3rem;
   }
 
   & header figure {
@@ -42,6 +42,12 @@ export const UserCardWrapper = styled.article`
     box-shadow: 0 3px 0px 10px rgb(9 129 119 / 100%);
     border-radius: 50%;
   }
+  & header h2 {
+    font-size: 1.5rem;
+    margin-inline : 0;
+    padding: 0;
+    white-space: nowrap;
+  }
   & main ul {
     display: flex;
     flex-direction: row;
@@ -52,7 +58,6 @@ export const UserCardWrapper = styled.article`
     padding-inline-start: 2.5rem;
     margin: auto;
     gap: 20px;
-
   }
 
   & .description p {
@@ -68,13 +73,17 @@ export const UserCard = ({ img, name, description, tecnologies }) => (
       </figure>
       <h2>{name}</h2>
     </header>
-    <main>
-      <p>{description}</p>
-      <ul>
-        {tecnologies.map((tecnology, key) => (
-          <TecnologyItem key={key} {...tecnology} />
-        ))}
-      </ul>
-    </main>
+    {description && tecnologies && (
+      <main>
+        {typeof description === 'string' && <p>{description}</p>}
+        {Array.isArray(tecnologies) && (
+          <ul>
+            {tecnologies.map((tecnology, key) => (
+              <TecnologyItem key={key} {...tecnology} />
+            ))}
+          </ul>
+        )}
+      </main>
+    )}
   </UserCardWrapper>
 );

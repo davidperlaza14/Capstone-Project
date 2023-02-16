@@ -1,3 +1,4 @@
+import { linkToInAnchor } from '../../core/router/linkTo';
 import { HeaderWrapper } from './Header.styles';
 
 export const Header = () => {
@@ -9,22 +10,22 @@ export const Header = () => {
       <nav id="nav">
         <ul>
           <li>
-            <a href="/" onClick="seleccionar()">
+            <a href="/" onClick={linkToInAnchor()}>
               HOME
             </a>
           </li>
           <li>
-            <a href="/cv" onClick="seleccionar()">
+            <a href="/cv" onClick={linkToInAnchor({ userId: 19732 })}>
               CV
             </a>
           </li>
           <li>
-            <a href="/projects" onClick="seleccionar()">
+            <a href="/projects" onClick={linkToInAnchor()}>
               PROJECTS
             </a>
           </li>
           <li>
-            <a href="/talent" onClick="seleccionar()">
+            <a href="/talent" onClick={linkToInAnchor()}>
               TALENT{' '}
             </a>
           </li>

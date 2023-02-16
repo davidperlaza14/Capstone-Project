@@ -17,6 +17,6 @@ export const TecnologyItemWrapper = styled.li`
 export const TecnologyItem = ({ icon, name }) => (
   <TecnologyItemWrapper>
     <span>{name}</span>
-    <i class={`devicon-${icon}-plain colored`}></i>
+    <i className={`devicon-${icon}-plain colored`}></i>
   </TecnologyItemWrapper>
 );

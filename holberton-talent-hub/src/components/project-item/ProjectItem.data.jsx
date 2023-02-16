@@ -6,7 +6,7 @@ import talent1 from "../../images/talent01.jpg";
 import talent2 from "../../images/talent02.jpg";
 import talent3 from "../../images/talent03.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
-import { GaleryItemImage, Tecnology, UserTalet } from "./Jobs.types";
+import { GaleryItemImage, Tecnology, UserTalet } from "./ProjectItem.types";
 
 export const imagesRaw = [pro, pro1, pro2];
 export const images = imagesRaw.map(
