@@ -18,7 +18,7 @@ export const ProjectsPageWrapper = styled.section`
     display: flex;
     justify-content: center;
     padding: 10px;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     z-index: 1;
   }
@@ -50,41 +50,39 @@ export const ProjectsPageWrapper = styled.section`
   }
 
   & .button-search {
-    box-shadow: 6px 5px 12px 3px #000;
+    box-shadow: 2px 2px #000;
     padding: 10px 25px;
-    background: #009dff;
     cursor: pointer;
     border: none;
     color: white;
     font-weight: 600;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 6px;
+    background: #098177;
   }
 
   & .button-search:hover {
-    background: #527e9a;
+    background: #064F49;
   }
 
   & .button-three {
-    box-shadow: 6px 5px 12px 1px #009dff;
+    border: 2px solid #000;
     padding: 10px 8px;
     margin: 0 15px;
-    border: none;
-    color: black;
+    color: #064F49;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
   }
 
   & .button-two {
-    box-shadow: 6px 5px 16px 1px #312e2e;
     padding: 10px 8px;
-    border: 2px solid #009dff;
-    color: black;
+    border: 2px solid #000;
+    color: #064F49;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 6px;
     margin: 0 10px;
     cursor: pointer;
   }
