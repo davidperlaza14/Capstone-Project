@@ -9,35 +9,35 @@ export const projectsData = [
   {
     id: 1,
     image: work1,
-    image: 'Web desing',
+    title: 'Web desing',
     category: 'web',
 
   },
   {
     id: 2,
     image: work2,
-    image: 'App movil',
+    title: 'App movil',
     category: 'app',
 
   },
   {
     id: 3,
     image: work3,
-    image: 'Web desing',
-    category: 'desing',
+    title: 'Web desing',
+    category: 'design',
 
   },
   {
     id: 4,
     image: work4,
-    image: 'App movil',
+    title: 'App movil',
     category: 'App',
 
   },
   {
     id: 5,
     image: work5,
-    image: 'Web desing',
+    title: 'Web desing',
     category: 'web',
 
   }
@@ -46,7 +46,7 @@ export const projectsData = [
 
 export const projectsNav = [
   {
-    name:'alt',
+    name:'all',
   },
   {
     name:'web',
@@ -57,5 +57,4 @@ export const projectsNav = [
   {
     name:'design',
   },
- 
 ]

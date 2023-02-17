@@ -24,8 +24,9 @@ const  App = () => {
       <Skill />
       <Services/>
       <Qualification />
-      <Contact />
       <Work />
+      <Contact />
+      
     </main>
     
 
