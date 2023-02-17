@@ -5,12 +5,14 @@ import App from './App';
 
 /*
  * This is a hack to detect when the user navigates to a new page.
- * This is needed because the router is not re-rendering when the user navigates to a new page.
+ * This is needed because the router is not re-rendering when the user navigates
+ * to a new page.
  */
 (() => {
   /**
    * @function pushState
-   * @description This function is used to push a new state to the history this is a decorator
+   * @description This function is used to push a new state to the history this
+   * is a decorator
    *              by add own event call it routerReload
    * @param {any} ...arguments - The arguments to pass to the original function
    * @returns {any} - The return value of the original function
@@ -25,7 +27,8 @@ import App from './App';
 
   /**
    * @function replaceState
-   * @description This function is used to replace a new state to the history this is a decorator
+   * @description This function is used to replace a new state to the history
+   * this is a decorator
    *             by add own event call it routerReload
    * @param {any} ...arguments - The arguments to pass to the original function
    * @returns {any} - The return value of the original function
@@ -40,7 +43,8 @@ import App from './App';
 
   /**
    * @function popstate
-   * @description This is a suscription to the popstate event to detect when the user navigates to a previous page
+   * @description This is a suscription to the popstate event to detect when
+   * the user navigates to a previous page
    *             this is a decorator by add own event call it routerReload
    */
   window.addEventListener('popstate', () => {
