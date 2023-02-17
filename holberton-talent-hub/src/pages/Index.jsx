@@ -11,8 +11,9 @@ export const TitleIndex = styled.section`
 
 export const IndexWrapper = styled.section`
 & {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 1)), url(${fondo});
-  background-size: cover;
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.6), rgba(30, 35, 38, 0.8)), url(${fondo});
+  background-size: 100%;
+  background-position: top;
   height: 100vh;
   color: #e21c3d;
   display: flex;
@@ -28,24 +29,24 @@ export const IndexWrapper = styled.section`
   box-sizing: border-box; 
 }
 body{
-  background-color: #151320;
+ /* background-color: #151320;*/
     
 }
 div{
   height: 350px;
-  width: 350px;
+  width: 500px;
   position: absolute;
   transform: translate(-50%,-50%);
-  top: 50%;
+  top: 40%;
   left: 50%;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 20px 35px rgba(0,0,0,0.3);
   overflow: hidden;
 }
 div:before{
   content: "";
-  height: 150%;
-  width: 150%;
+  height: 300%;
+  width: 300%;
   position: absolute;
   background: conic-gradient(
     #098176,
@@ -58,8 +59,8 @@ div:before{
     #e4e4e4,
     #7dd9c4
   );
-  left: -25%;
-  top: -25%;
+  left: -100%;
+  top: -100%;
   animation: spin 15s infinite linear;
 }
 @keyframes spin{
@@ -73,18 +74,18 @@ div:after{
 	content: "Is an application designed by Coderise to facilitate the search for human talent with extensive management of tools used in Software development and Soft Skills. Companies and recruiters interested in hiring staff for their work teams will be able to find the ideal staff in this application.";
   position: absolute;
   background-color: #1c1b29;
-  height: 96%;
+  height: 85%;
   width: 96%;
-  top: 2%;
+  top: 12%;
   left: 2%;
-  border-radius: 5px;
-  font-family: 'Poppins',sans-serif;
+  border-radius: 10px;
+  font-family: 'Inconsolata',sans-serif;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
-  display: grid;
-  place-items: center;
+
   text-align: center;
+  line-height: 1.5;
 }
 
 `;
