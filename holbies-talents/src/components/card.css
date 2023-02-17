@@ -1,0 +1,88 @@
+*{
+  background-color:#1e2326;
+}
+.card {
+  margin: 15px 0 15px 0 ;
+  grid-template-columns:repeat(4);
+  width: 300px ;
+  
+  
+}
+
+.card-title {
+  color: #1CB698;
+  background-color: rgb(46, 46, 46);
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px #1CB698;
+  transition: all 0.7s linear;
+}
+.card-body {
+  padding: 2rem 0 !important;
+  background-color: rgb(46, 46, 46);
+
+}
+
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  background-color: rgb(46, 46, 46);
+  
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.car-img-top{
+  transition: all 0.2s ease-in-out;
+
+}
+
+.car-img-top:hover{
+  transform: scale(1.8);
+
+}
+
+
+
+
+
+/* ============================================== */
+body {
+  font-family: 'Oxygen', sans-serif;
+  height: 100%;
+  color: rgb(22, 23, 24);
+  
+}
+
+.img {
+  width: 350px;
+  height: 282px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #fc0000;
+}
+a {
+  background-color: #e9e5e5 !important; 
+  color: black !important;
+}
+a:hover {
+  background-color: #1C6B1C;
+  
+}
+.btn {
+  color: aliceblue;
+  border-radius: 20% !important;
+}
+
+.btn:hover {
+  background-color: #1CB698 !important;;
+  
+}
