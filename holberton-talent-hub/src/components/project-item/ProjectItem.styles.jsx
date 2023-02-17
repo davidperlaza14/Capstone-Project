@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const ProjectItemWrapper = styled.section`
   & {
-    background: #2d333d;
+    background: #2D333D;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 20px;
     display: grid;
     grid-template: 'figure header' 3.5rem 'figure main' 1fr / calc(10rem + 12vw) 1fr;
     gap: 20px;
@@ -27,9 +27,25 @@ export const ProjectItemWrapper = styled.section`
     justify-content: center;
     margin-block-start: 4rem;
   }
-  & .talent-container > * { 
-    transform: scale(.75);
 
+  & header h1 {
+    text-align: center;
+    color: #8beeee;
+    font-size: 30px;
+  }
+
+  & main p {
+    color: white;
+    font-size: 20px;
+  }
+
+  & .talent-container > * { 
+    transform: scale(.80);
+    font-size: 20px;
+  }
+
+  & .talent-container img {
+    font-size: 20px;
   }
 `;
 

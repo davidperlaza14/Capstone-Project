@@ -60,9 +60,6 @@ export const UserCardWrapper = styled.article`
     gap: 20px;
   }
 
-  & .description p {
-    background-color: white;
-  }
 `;
 
 export const UserCard = ({ img, name, description, tecnologies }) => (
