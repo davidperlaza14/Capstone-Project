@@ -43,7 +43,4 @@ export const SlideWrapper = styled.section`
     text-align: center;
   }
 
-  & .UserTalent.description p {
-    background-color: #515151;
-  }
 `;
