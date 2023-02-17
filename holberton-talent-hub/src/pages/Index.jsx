@@ -71,10 +71,10 @@ div:before{
 
 
 div:after{
-	content: "Is an application designed by Coderise to facilitate the search for human talent with extensive management of tools used in Software development and Soft Skills. Companies and recruiters interested in hiring staff for their work teams will be able to find the ideal staff in this application.";
+	content: "\n\n\nIs an application designed by Coderise to facilitate the search for human talent with extensive management of tools used in Software development and Soft Skills. Companies and recruiters interested in hiring staff for their work teams will be able to find the ideal staff in this application.";
   position: absolute;
   background-color: #1c1b29;
-  height: 85%;
+  height: 80%;
   width: 96%;
   top: 12%;
   left: 2%;
