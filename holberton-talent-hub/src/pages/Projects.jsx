@@ -94,7 +94,6 @@ export const ProjectsPageWrapper = styled.section`
 export const ProjectsPage = () => {
   const projects = [{}, {}, {}];
   return (
-    <>
       <ProjectsPageWrapper>
       <div className="container-projects"> 
         <div className="center-container">
@@ -115,6 +114,5 @@ export const ProjectsPage = () => {
           </div>
       </div>
       </ProjectsPageWrapper>
-    </>
   );
 };
