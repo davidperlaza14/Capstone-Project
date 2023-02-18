@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Info from "./Info";
+import { Info } from "./Info";
 import David from "../../assets/David.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
