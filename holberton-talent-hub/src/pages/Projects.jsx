@@ -76,6 +76,11 @@ export const ProjectsPageWrapper = styled.section`
     cursor: pointer;
   }
 
+  & .button-three:hover {
+    background: #064F49;
+    color: white;
+  }
+
   & .button-two {
     padding: 10px 8px;
     border: 2px solid #000;
@@ -86,6 +91,12 @@ export const ProjectsPageWrapper = styled.section`
     margin: 0 10px;
     cursor: pointer;
   }
+
+  & .button-two:hover {
+    background: #064F49;
+    color: white;
+  }
+
 
 `;
 
