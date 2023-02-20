@@ -1,5 +1,89 @@
 import React, { useState } from "react";
-import "./qualification.css";
+import styled from 'styled-components';
+
+export const QualificationWrapper = styled.section`
+.qualification__container {
+  max-width: 768px;
+}
+
+.qualification__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+}
+
+
+.qualification__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.qualification__button:hover{
+  color: #1EB698;
+}
+
+.qualification__icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qualification__active {
+  color: var(--title-color-dark);
+}
+
+.qualification__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.qualification__content {
+  display: none;
+}
+
+.qualification__content-active {
+  display: block;
+}
+
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualification__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar {
+  font-size: var(--small-font-size);
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #000 ;
+  border-radius: 50%;
+}
+
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  transform: translate(6px, -7px);
+}`;
 
 export const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -9,6 +93,7 @@ export const Qualification = () => {
   };
 
   return (
+<QualificationWrapper>
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personel journey</span>
@@ -191,5 +276,6 @@ export const Qualification = () => {
         </div>
       </div>
     </section>
+</QualificationWrapper>
   );
 };

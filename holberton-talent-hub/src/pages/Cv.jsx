@@ -4,8 +4,7 @@ import { Services } from "../components/services/Services";
 import { Qualification } from "../components/qualification/Qualification";
 import { Work } from "../components/work/Work";
 import { Contact } from "../components/contact/Contact";
-
-/*import { Skill } from "../components/skill/Skill";*/
+import { Skills } from "../components/skills/Skills";
 
 /* export const CvPage = ({ userId }) => { */
 
@@ -17,7 +16,7 @@ export const CvPage = () => {
         <h1>CV of {userId}</h1>*/}
         <Home />
         <About />
-        {/*<Skill />*/}
+        <Skills />
         <Services />
         <Qualification />
         <Contact />

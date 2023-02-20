@@ -1,12 +1,45 @@
 import React from "react";
-import "./about.css";
+import styled from "styled-components";
 import { Info } from "./Info";
 import David from "../../assets/David.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
+export const AboutWrapper = styled.section`
+.about__constainer{
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+  /* background-color: #252A2E; */
+}
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+.about__description {
+  padding: 0 4rem 0 0;
+  margin-bottom: var(--mb-2-5);
+  /* color: #1CB698; */
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.button:hover {
+    background-color: #1CB698;
+}`; 
+
 
 export const About = () => {
   return (
+    <AboutWrapper>
     <section className=" about section" id="about">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
@@ -47,5 +80,6 @@ export const About = () => {
         </div>
       </div>
     </section>
+    </AboutWrapper>
   );
 };
