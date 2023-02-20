@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectItemWrapper = styled.section`
+
   & {
     background: #2D333D;
     margin: auto;
@@ -9,7 +10,10 @@ export const ProjectItemWrapper = styled.section`
     grid-template: 'figure header' 3.5rem 'figure main' 1fr / calc(10rem + 12vw) 1fr;
     gap: 20px;
     cursor: pointer;
+    box-shadow: 0px 0px 0px 1px inset #8beeee70;
+    border-radius: 20px;
   }
+
   & figure {
     grid-area: figure;
     margin: 0;
@@ -17,11 +21,13 @@ export const ProjectItemWrapper = styled.section`
     display: grid;
     position: relative;
   }
+
   & figure > * {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
+
   & .talent-container {
     display: flex;
     justify-content: center;
@@ -47,6 +53,12 @@ export const ProjectItemWrapper = styled.section`
   & .talent-container img {
     font-size: 20px;
   }
+
+
+  &:hover {
+    box-shadow: 0px 0px 0px 1px inset #8beeee;
+  }
+
 `;
 
 /*   & .job-container {

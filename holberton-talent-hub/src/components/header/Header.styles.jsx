@@ -34,6 +34,7 @@ export const HeaderWrapper = styled.header`
     padding: 3px;
     transition: 0.5s;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   & nav ul li a:hover {
