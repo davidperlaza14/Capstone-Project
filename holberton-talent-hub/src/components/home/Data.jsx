@@ -43,7 +43,7 @@ export const DataWrapper = styled.section`
   color: white;
 }
 
-.button {
+${'' /* .button {
   background-color: #098177;
   color: white;
 }
@@ -51,14 +51,14 @@ export const DataWrapper = styled.section`
 .button:hover {
   background-color: #064f49;
 }
-
+ */}
 `;
 
 export const Data = () => {
   return (
     <DataWrapper>
       <div className='home__data'>
-        <h1 className='home__title'> David Perlaza
+        <h1 className='home__title'> Kofi Kaba
           {/*
           <svg
             width="36"
@@ -112,7 +112,7 @@ export const Data = () => {
         </h1>
 
         <h3 className='home__subtitle'>Back-End Developer</h3>
-        <p className='home__description'>Starting a career in software development, with 2000+ hours of hand on code experience and 6+ months of experience tutoring, and helping building the company's web app.</p>
+        <p className='home__description'>African developer who always brings his A-game to the table. He has a deep understanding of C, C++, and Python, and is highly skilled in the use of HTML, JavaScript, and React. With his technical prowess and innovative approach, Kofi consistently delivers top-notch results.</p>
         <a href='#contact' className='button button--flex'>
           Say hello
           <svg

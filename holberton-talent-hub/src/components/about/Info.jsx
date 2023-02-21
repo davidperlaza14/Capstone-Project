@@ -10,7 +10,7 @@ export const InfoWrapper = styled.section`
 .about__box {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.75rem;
+  border-radius: 2.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
   background: #fff;

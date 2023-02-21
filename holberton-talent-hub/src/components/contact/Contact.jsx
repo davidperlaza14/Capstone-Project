@@ -83,7 +83,7 @@ export const ContactWrapper = styled.section`
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid #098177;
   background: none;
   color: var(--text-color);
   outline: none;
@@ -99,7 +99,9 @@ export const ContactWrapper = styled.section`
   left: 1.25rem;
   font-size: var(--small-font-size);
   padding: 0.25rem;
-  background-color: #ffffff;
+  background-color: #098177;
+  color: white;
+  border-radius: 0.5rem;
   z-index: 10;
 } 
 
@@ -116,7 +118,7 @@ export const Contact = () => {
 <ContactWrapper>
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <span className="section__subtitle"></span>
 
       <div className="contact__container container grid">
         <div className="contact__content">

@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { withTheme } from "styled-components";
 import { Info } from "./Info";
-import David from "../../assets/David.jpg";
+import certificado_HB from "../../assets/certificado_HB.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
 export const AboutWrapper = styled.section`
@@ -61,7 +61,7 @@ export const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__constainer constainer grid">
-          <img src={David} alt="" className="about__img" />
+          <img src={certificado_HB} alt="" className="about__img" />
           <div className="about__data">
             <Info />
             <p className="about__description"> BackEnd Developer!!!!.

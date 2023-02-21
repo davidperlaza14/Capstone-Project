@@ -25,7 +25,6 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  /* background: #1e2326; */
   color: #fff;
 }
 
@@ -107,14 +106,18 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  background-color: #098177;
+  color: white;
 }
 
 .button:hover {
   background-color: var(--title-color-dark);
+  background-color: #064f49;
 }
 
 .button__icon {
   margin-left: var(--mb-0-5);
+  color: white;
 }
 
 .button--flex {

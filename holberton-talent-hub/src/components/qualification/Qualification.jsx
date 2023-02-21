@@ -63,17 +63,20 @@ export const QualificationWrapper = styled.section`
   display: inline-block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
+  background-color: #098177;
+  
 }
 
 .qualification__calendar {
   font-size: var(--small-font-size);
 }
 
+
 .qualification__rounder {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: #000 ;
+  background-color: #098177;
   border-radius: 50%;
 }
 
@@ -81,7 +84,7 @@ export const QualificationWrapper = styled.section`
   display: block;
   width: 1px;
   height: 100%;
-  background-color: #000;
+  background-color: #098177;
   transform: translate(6px, -7px);
 }`;
 
@@ -96,7 +99,7 @@ export const Qualification = () => {
 <QualificationWrapper>
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personel journey</span>
+      <span className="section__subtitle"></span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">

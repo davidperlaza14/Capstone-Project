@@ -4,7 +4,7 @@ export const SlideWrapper = styled.section`
   & {
     background: #2D333D;
     margin: auto;
-    padding: 0 10px;
+    padding: 10px;
   }
 
   & .job-container {

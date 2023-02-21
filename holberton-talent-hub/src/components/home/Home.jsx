@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Social } from "./Social";
 import { Data } from "./Data";
 import { ScrollDown } from "./ScrollDown";
-import David from '../../assets/David.jpg';
+import talent1 from '../../assets/talent1.jpg';
 
 export const HomeWrapper = styled.section`
 * {
@@ -24,7 +24,7 @@ align-items: center;
 }
 
 .home__img {
-  background: url(${David});
+  background: url(${talent1});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

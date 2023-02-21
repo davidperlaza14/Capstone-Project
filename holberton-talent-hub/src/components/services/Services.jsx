@@ -51,7 +51,7 @@ export const ServicesWrapper = styled.section`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #2d333d;
   z-index: var(--z-modal);
   display: flex;
   justify-content: center;
@@ -124,10 +124,7 @@ export const Services = () => {
   return (
     <ServicesWrapper>
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
-
-      <div className="services__container container grid">
+      {/* <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
@@ -350,7 +347,7 @@ export const Services = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
 </ServicesWrapper>
   );

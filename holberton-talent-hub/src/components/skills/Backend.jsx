@@ -57,7 +57,7 @@ export const Backend = () => {
   return (
     <BackendWrapper>
     <div className='skills__contenct'>
-      <h3 className='skills__title'>Frontend Developer</h3>
+      <h3 className='skills__title'>Backend Developer</h3>
 
       <div className='skills__box'>
         <div className='skills__group'>
