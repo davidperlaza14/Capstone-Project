@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { withTheme } from "styled-components";
 import { Info } from "./Info";
 import David from "../../assets/David.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
@@ -13,12 +13,6 @@ export const AboutWrapper = styled.section`
 }
 .about__data {
   text-align: center;
-}
-
-.about__description {
-  padding: 0 5rem;
-  margin-bottom: 2rem;
-  
 }
 
 .about__description {
@@ -36,7 +30,27 @@ export const AboutWrapper = styled.section`
 
 .button:hover {
     background-color: #1CB698;
-}`;
+}
+
+.section__title {
+  color: white;
+}
+
+.section__subtitle {
+  color: white;
+}
+
+.button {
+  background-color: #098177;
+  color: white;
+}
+
+.button:hover {
+  background-color: #064f49;
+}
+`;
+
+
 
 
 export const About = () => {

@@ -6,15 +6,21 @@ import { ScrollDown } from "./ScrollDown";
 import David from '../../assets/David.jpg';
 
 export const HomeWrapper = styled.section`
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .home__container {
-/*  row-gap: 7rem;*/
+row-gap: 7rem;
 }
 
 .home__contect {
-/*  grid-template-columns: 116px repeat(2, 1fr);*/
-/*  padding-top: 5.5rem;*/
-/*  column-gap: 2rem;*/
-/*  align-items: center;*/
+grid-template-columns: 116px repeat(2, 1fr);
+padding-top: 5.5rem;
+column-gap: 2rem;
+align-items: center;
 }
 
 .home__img {
@@ -48,21 +54,21 @@ export const HomeWrapper = styled.section`
 export const Home = () => {
   return (
     <HomeWrapper>
-      {/*<section className="home section" id="home">*/}
-      {/*}        <div className="home__container container grid">*/}
-      {/*<div className="home__contect grid">*/}
-      <Social />
+      <section className="home section" id="home">
+        <div className="home__container container grid">
+          <div className="home__contect grid">
+            <Social />
 
-      <div className="home__img">
-      </div>
+            <div className="home__img">
+            </div>
 
-      <Data />
-      {/*</div>*/}
+            <Data />
+          </div>
 
-      <ScrollDown />
-      {/*</div>*/}
+          <ScrollDown />
+        </div>
 
-      {/*</section>*/}
+      </section>
     </HomeWrapper>
   )
 };
