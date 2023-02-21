@@ -6,6 +6,7 @@ export const TitleIndex = styled.section`
 	text-align: center;
 	font-family: Inconsolata;
 	color: #e21c3d;
+  font-size: 30px;
 }
 `;
 
@@ -24,7 +25,7 @@ export const IndexWrapper = styled.section`
 *,
 *:before,
 *:after{
-    padding: 0;
+    padding: 10px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -32,8 +33,8 @@ body{
     background-color: #151320;
 }
 div{
-    height: 250px;
-    width: 300px;
+    height: 280px;
+    width: 330px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -55,8 +56,8 @@ div:before{
         #1c1c1c,
         #000000,
         #333333,
-		#e4e4e4,
-		#7dd9c4
+		    #e4e4e4,
+		    #7dd9c4
     );
     left: -25%;
     top: -25%;

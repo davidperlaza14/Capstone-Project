@@ -8,16 +8,15 @@ export const UserCardWrapper = styled.article`
     flex-direction: column;
     gap: 40px;
     box-shadow: 0 6.5rem 0 0 inset rgb(9 129 119 / 100%);
-    max-width: 400px;
     padding: 20px;
     border: 1px solid black;
     background-color: #1e2326;
     color: white;
-    font-family: 'Inconsolata';
-    font-size: 17px;
+    font-family: 'Inconsolata', 'Sans serif';
+    font-size: 18px;
     border-radius: 20px;
     line-height: 20px;
-    text-align: center;
+    text-align: justify;
     flex-grow: 1;
   }
 
@@ -51,13 +50,13 @@ export const UserCardWrapper = styled.article`
   & main ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: unset;
     list-style: none;
-    width: 90%;
-    padding-inline-start: 2.5rem;
+    width: 35%;
+    padding-inline-start: 1rem;
     margin: auto;
-    gap: 20px;
+    gap: 10px;
   }
 
 `;
