@@ -3,12 +3,13 @@ import styled from "styled-components";
 
 export const DataWrapper = styled.section`
 .home__data {
-    grid-column: 1/3;
+    grid-column: 2/3;
   }
 
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0-25);
+  color: white;
 }
 
 .home__hand {

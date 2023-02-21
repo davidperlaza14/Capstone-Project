@@ -11,24 +11,20 @@ import { Skills } from "../components/skills/Skills";
 export const CvPage = () => {
   return (
     <>
-      <section id="inicio" className="inicio">
-        {/* {userId} ? ( 
+      {/*<section id="inicio" className="inicio">*/}
+      {/* {userId} ? ( 
         <h1>CV of {userId}</h1>*/}
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Contact />
-        <Work />
-        {/* ) : ( */}
-        <h1>CV</h1>
-        <p>
-          Is an application designed by Coderise to facilitate the search for human talent with extensive management of tools used in
-          Software development and Soft Skills. Companies and recruiters interested in hiring staff for their work teams will be able to
-        </p>
-        {/* ) */}
-      </section>
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Qualification />
+      <Contact />
+      <Work />
+      {/* ) : ( */}
+
+      {/* ) */}
+      {/*</section>*/}
     </>
   );
 };
