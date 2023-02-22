@@ -185,10 +185,9 @@ export const CvPage = () => {
           <Home />
           <About />
           <Skills />
-          <Services />
           <Qualification />
-          <Contact />
           <Work />
+          <Contact />
           {/* ) : ( */}
 
           {/* ) */}

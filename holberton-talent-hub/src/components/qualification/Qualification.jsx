@@ -63,12 +63,13 @@ export const QualificationWrapper = styled.section`
   display: inline-block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
-  background-color: #098177;
+  color: #1CB698;
   
 }
 
-.qualification__calendar {
+.qualification__calender {
   font-size: var(--small-font-size);
+  color: #fff;
 }
 
 
