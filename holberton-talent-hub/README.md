@@ -24,7 +24,7 @@ ___
 
 ___
 
-## pages :notebook:
+## Pages :notebook:
 
 The project has different pages that are interlinked with each other.
 
@@ -37,7 +37,7 @@ The project has different pages that are interlinked with each other.
 ___
 
 
-## components created folder :dart:
+## Components created folder :dart:
 
 * header
 * footer
