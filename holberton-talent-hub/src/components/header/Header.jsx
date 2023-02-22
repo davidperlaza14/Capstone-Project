@@ -31,14 +31,14 @@ export const Header = () => {
           </li>
           <li>
             <a href="/talent" onClick={linkToInAnchor()}>
-              TALENT{' '}
+              TALENT
             </a>
           </li>
-          <li>
+          {/*           <li>
             <a href="/team coderise" onClick="seleccionar()">
               TEAM CODERISE
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="/contact" onClick="seleccionar()">
               CONTACT

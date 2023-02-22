@@ -18,14 +18,16 @@ export const WorkItemsWrapper = styled.section`
 }
 
 .work__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: 20px;
+  font-weight: 900;
   margin-bottom: var(--mb-0-5);
 } 
 
 .work__button {
   color: var(--text-color);
-  font-size: var(--small-font-size);
+  font-size: 20px;
+  font-weight: 100;
+  font-variant: all-small-caps;
   display: flex;
   align-items: center;
   column-gap: 0.25rem;

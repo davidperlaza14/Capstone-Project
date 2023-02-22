@@ -5,7 +5,7 @@ export const TitleIndex = styled.section`
 & .main-title {
 	text-align: center;
 	font-family: Inconsolata;
-	color: #e21c3d;
+	color: #821410;
   font-size: 30px;
 }
 `;
@@ -18,7 +18,7 @@ export const IndexWrapper = styled.section`
   background-size: 100%;
   background-position: top;
   height: 100vh;
-  color: #e21c3d;
+  color: #821410;
   display: flex;
   align-items: flex-start;
   font-size: 20px;
@@ -38,7 +38,7 @@ body{
 }
 div{
     height: 280px;
-    width: 330px;
+    width: fit-content;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -83,7 +83,7 @@ div:after{
   border-radius: 5px;
   font-family: 'Poppins',sans-serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: grid;
   place-items: center;

@@ -7,6 +7,10 @@ import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 /* A styled component. */
 
 export const AboutWrapper = styled.section`
+* {
+  font-size: 20px;
+}
+
 .about__constainer{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;

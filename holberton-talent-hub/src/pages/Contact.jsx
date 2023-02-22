@@ -7,8 +7,6 @@ import { Contact } from "../components/contact/Contact";
 import { Skills } from "../components/skills/Skills";
 
 /* export const CvPage = ({ userId }) => { */
-/* A styled component. */
-
 export const CvPageWrapper = styled.section`
 * {
   margin: 0;
@@ -176,16 +174,11 @@ img {
 
 
 
-export const CvPage = () => {
+export const ContactPage = () => {
   return (
     <>
       <CvPageWrapper>
         <section id="inicio" className="inicio">
-          <Home />
-          <About />
-          <Skills />
-          <Qualification />
-          <Work />
           <Contact />
         </section>
       </CvPageWrapper>
