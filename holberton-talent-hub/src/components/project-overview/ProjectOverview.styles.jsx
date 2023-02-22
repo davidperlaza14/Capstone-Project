@@ -31,9 +31,7 @@ export const SlideWrapper = styled.section`
   & .talent-container {
     margin: auto;
     max-width: 90%;
-    /*border: 1px solid black;*/
     gap: 3rem;
-    /*background: #515151;*/
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -41,6 +39,4 @@ export const SlideWrapper = styled.section`
     border-radius: 20px;
     justify-content: space-around;
     text-align: center;
-  }
-
-`;
+  }`;

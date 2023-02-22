@@ -1,4 +1,3 @@
-//import { Holbies } from '../components/holbies/Holbies';
 import { TalentOverview } from "../components/holbies/TalentOverview";
 
 export const TalentPage = () => {
@@ -7,7 +6,6 @@ export const TalentPage = () => {
     <>
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
-          {/* {/*<Holbies/>*/}
           <TalentOverview></TalentOverview>
         </div>
       </section>
