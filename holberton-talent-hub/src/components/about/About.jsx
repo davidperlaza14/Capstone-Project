@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { withTheme } from "styled-components";
+import styled from "styled-components";
 import { Info } from "./Info";
 import certificado_HB from "../../assets/certificado_HB.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
@@ -9,7 +9,6 @@ export const AboutWrapper = styled.section`
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
-  /* background-color: #252A2E; */
 }
 .about__data {
   text-align: center;
@@ -19,7 +18,6 @@ export const AboutWrapper = styled.section`
   padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
  color: white; 
-  /* color: #1CB698; */
 }
 
 .about__img {
@@ -50,9 +48,6 @@ export const AboutWrapper = styled.section`
 }
 `;
 
-
-
-
 export const About = () => {
   return (
     <AboutWrapper>
@@ -64,7 +59,7 @@ export const About = () => {
           <img src={certificado_HB} alt="" className="about__img" />
           <div className="about__data">
             <Info />
-            <p className="about__description"> BackEnd Developer!!!!.
+            <p className="about__description"> BackEnd Developer.
               Starting a career in software development, with 2000+ hours of hand on code experience and 6+ months of experience tutoring, and helping building the company's web app.</p>
 
             <a download="" href={CV} className="button" >download

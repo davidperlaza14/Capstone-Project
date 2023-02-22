@@ -1,17 +1,29 @@
+import styled from 'styled-components';
+
+export const Error404PageWrapper = styled.section`
+.ErrorText {
+  color: white;
+}
+h1 {
+  color: white;
+}
+`;
+
 export const Error404Page = () => {
   return (
-    <>
+    <Error404PageWrapper>
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
           <h1>404</h1>
-          <p>
-            Is an application designed by Coderise to facilitate the search for human talent with extensive management of tools used in
-            Software development and Soft Skills. Companies and recruiters interested in hiring staff for their work teams will be able to
-            find the ideal staff in this application.{' '}
+          <p className="ErrorText">
+            We're sorry, the page you're looking for is not available.
+            It's possible that you've typed the address incorrectly or that the
+            page has been deleted. Please check the address again or try
+            searching for what you need on our homepage.{' '}
           </p>
           <div className="contenedor-img" />
         </div>
       </section>
-    </>
+    </Error404PageWrapper>
   );
 };

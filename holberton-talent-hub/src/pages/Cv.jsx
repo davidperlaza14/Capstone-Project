@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Home } from "../components/home/Home";
 import { About } from "../components/about/About";
-import { Services } from "../components/services/Services";
 import { Qualification } from "../components/qualification/Qualification";
 import { Work } from "../components/work/Work";
 import { Contact } from "../components/contact/Contact";
