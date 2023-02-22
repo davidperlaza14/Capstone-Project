@@ -4,6 +4,8 @@ import { Info } from "./Info";
 import certificado_HB from "../../assets/certificado_HB.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
+/* A styled component. */
+
 export const AboutWrapper = styled.section`
 .about__constainer{
   grid-template-columns: repeat(2, 1fr);
@@ -47,6 +49,11 @@ export const AboutWrapper = styled.section`
   background-color: #064f49;
 }
 `;
+
+/**
+ * A function that returns a component.
+ * @returns A function that returns a JSX element.
+ */
 
 export const About = () => {
   return (

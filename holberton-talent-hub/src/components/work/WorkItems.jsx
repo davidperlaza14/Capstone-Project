@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const WorkItemsWrapper = styled.section`
 .work__card {
   background-color: var(--container-color);
@@ -37,6 +39,8 @@ export const WorkItemsWrapper = styled.section`
 .work__button:hover .work__button-icon {
   transform: translateX(00.25rem);
 }`;
+
+/* This is a functional component that is returning a styled component. */
 
 export const WorkItems = ({ item }) => {
   return (

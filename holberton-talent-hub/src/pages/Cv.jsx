@@ -7,6 +7,8 @@ import { Contact } from "../components/contact/Contact";
 import { Skills } from "../components/skills/Skills";
 
 /* export const CvPage = ({ userId }) => { */
+/* A styled component. */
+
 export const CvPageWrapper = styled.section`
 * {
   margin: 0;

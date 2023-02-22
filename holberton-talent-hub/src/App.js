@@ -12,6 +12,12 @@ import { Route } from './core/router/Route';
 import { Router } from './core/router/Router';
 import { ProjectPage } from './pages/Project';
 
+/**
+ * It renders the header, the main content, and the footer
+ * @returns The return value of the function is the return value of the last statement in the function
+ * body.
+ */
+
 const App = () => {
   const { pathname } = window.location;
   localStorage.setItem(LocalStorageKeys.pathname, pathname);

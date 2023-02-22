@@ -6,6 +6,8 @@ import { images, usersTalent } from './ProjectItem.data';
 import { UserCard } from '../user-card/UserCard';
 import { linkTo } from '../../core/router/linkTo';
 
+/* A React component. */
+
 export const ProjectItem = ({ projectId }) => {
   return (
     <ProjectItemWrapper onClick={() => linkTo({ pathname: '/project', projectId })}>

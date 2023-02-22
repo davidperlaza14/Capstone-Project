@@ -5,6 +5,8 @@ import ImageGallery from 'react-image-gallery';
 import { images, usersTalent } from './ProjectOverview.data';
 import { UserCard } from '../user-card/UserCard';
 
+/* A function that returns a JSX element. */
+
 export const ProjectOverview = () => {
   return (
     <SlideWrapper>

@@ -2,6 +2,8 @@ import React from 'react';
 import styled from "styled-components";
 import { Works } from './Works';
 
+/* A styled component. */
+
 export const WorkWrapper = styled.section`
 
 `;

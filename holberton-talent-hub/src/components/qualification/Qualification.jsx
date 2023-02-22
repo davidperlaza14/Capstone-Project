@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const QualificationWrapper = styled.section`
 .qualification__container {
   max-width: 768px;
@@ -88,6 +90,8 @@ export const QualificationWrapper = styled.section`
   background-color: #098177;
   transform: translate(6px, -7px);
 }`;
+
+/* This is a React component. */
 
 export const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);

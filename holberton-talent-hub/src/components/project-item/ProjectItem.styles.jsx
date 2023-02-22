@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const ProjectItemWrapper = styled.section`
 
   & {

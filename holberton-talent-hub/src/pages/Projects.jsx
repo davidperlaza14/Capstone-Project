@@ -4,6 +4,8 @@ import { Search, KeyboardArrowUp } from '@mui/icons-material/';
 
 import { ProjectItem } from '../components/project-item/ProjectItem';
 
+/* A styled component. */
+
 export const ProjectsPageWrapper = styled.section`
   & main {
     display: flex;
@@ -135,9 +137,11 @@ export const ProjectsPageWrapper = styled.section`
   }
 `;
 
+/* A React component. */
+
 export const ProjectsPage = () => {
   const [show, setShow] = useState(false);
-  const projects = [{}, {}, {}];
+  const projects = [{}, {}, {}, {}];
   return (
     <ProjectsPageWrapper>
       <div className="container-projects">

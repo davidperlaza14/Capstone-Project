@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+/* A styled component. */
+
 export const SocialWrapper = styled.section`
 .home__social {
   display: grid;
@@ -16,6 +18,13 @@ export const SocialWrapper = styled.section`
 .home__social-icon:hover {
   color: #1cb698;
 }`;
+
+/**
+ * It returns a div with a class of home__social, which contains three links to my social media
+ * profiles
+ * @returns A component that contains a div with a class of home__social and inside of it there are
+ * three links that contain icons from the uil library.
+ */
 
 export const Social = () => {
   return (

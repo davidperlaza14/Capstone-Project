@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { Frontend } from './Frontend';
 import { Backend } from './Backend';
 
+/* A styled component. */
+
 export const SkillWrapper = styled.section`
 .skills__container {
   grid-template-columns: repeat(2, 350px);
@@ -30,6 +32,12 @@ export const SkillWrapper = styled.section`
   color: white;
 }
 `;
+
+/**
+ * It returns a section element with a title, subtitle, and a container element with two components
+ * inside
+ * @returns A function that returns a JSX element.
+ */
 
 export const Skills = () => {
   return (

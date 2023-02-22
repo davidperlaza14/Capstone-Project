@@ -3,6 +3,8 @@ import { SlideWrapper } from './TalentOverview.styles';
 import { usersTalent } from './TalentOverview.data';
 import { UserCard } from '../user-card/UserCard';
 
+/* A function that returns a JSX element. */
+
 export const TalentOverview = () => {
   return (
     <SlideWrapper>

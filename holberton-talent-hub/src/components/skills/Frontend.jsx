@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 
+/* A styled component. */
+
 export const FrontendWrapper = styled.section`
 .skills__contenct {
   background-color: var(--container-color);
@@ -52,6 +54,8 @@ export const FrontendWrapper = styled.section`
 }
 
 `;
+
+/* A function that returns the HTML code. */
 
 export const Frontend = () => {
   return (

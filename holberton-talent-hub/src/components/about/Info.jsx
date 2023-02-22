@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
 
+/* A styled component. */
+
 export const InfoWrapper = styled.section`
 .about__info {
   grid-template-columns: repeat(3, 140px);
@@ -31,6 +33,14 @@ export const InfoWrapper = styled.section`
 .about__subtitle {
   font-size: var(--tiny-font-size);
 }`;
+
+/**
+ * It returns a div with a class of about__info and a grid class. Inside of that div, there are three
+ * divs with a class of about__box. Inside of each of those divs, there is an i tag with a class of uil
+ * uil-award-alt about__icon, a h3 tag with a class of about__title, and a span tag with a class of
+ * about__subtitle
+ * @returns A div with a class of about__info and a grid class.
+ */
 
 export const Info = () => {
   return (

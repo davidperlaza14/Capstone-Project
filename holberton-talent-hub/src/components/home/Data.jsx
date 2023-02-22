@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
 
+/* A styled component. */
+
 export const DataWrapper = styled.section`
 .home__data {
     grid-column: 2/3;
@@ -42,6 +44,12 @@ export const DataWrapper = styled.section`
   margin-bottom: var(--mb-3);
   color: white;
 }`;
+
+/**
+ * It returns a div with a class of home__data, which contains a title, subtitle, description, and a
+ * button
+ * @returns A div with a class of home__data.
+ */
 
 export const Data = () => {
   return (

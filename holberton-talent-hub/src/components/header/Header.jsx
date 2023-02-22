@@ -1,6 +1,11 @@
 import { linkToInAnchor } from '../../core/router/linkTo';
 import { HeaderWrapper } from './Header.styles';
 
+/**
+ * It returns a header with a logo, a navbar and a responsive navbar
+ * @returns A React component
+ */
+
 export const Header = () => {
   return (
     <HeaderWrapper>

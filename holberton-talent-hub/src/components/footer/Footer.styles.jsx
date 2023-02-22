@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const FooterWrapper = styled.footer`
   & {
     background-color: #1e2326;

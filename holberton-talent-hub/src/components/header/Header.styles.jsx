@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+/* Creating a styled component. */
+
 export const HeaderWrapper = styled.header`
   & {
     background: #1e2326;

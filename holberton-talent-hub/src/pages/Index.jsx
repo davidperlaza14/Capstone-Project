@@ -10,6 +10,8 @@ export const TitleIndex = styled.section`
 }
 `;
 
+/* A CSS code that is used to style the page. */
+
 export const IndexWrapper = styled.section`
 & {
   background: linear-gradient(to top, rgba(30, 35, 38, 0.6), rgba(30, 35, 38, 0.8)), url(${fondo});
@@ -21,6 +23,8 @@ export const IndexWrapper = styled.section`
   align-items: flex-start;
   font-size: 20px;
 }
+
+/* The above code is a CSS code that is used to style the page. */
 
 *,
 *:before,

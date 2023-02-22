@@ -4,6 +4,8 @@ import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import { WorkItems } from "./WorkItems";
 
+/* Styling the section. */
+
 export const WorksWrapper = styled.section`
 .work__filters {
   display: flex;
@@ -31,6 +33,8 @@ export const WorksWrapper = styled.section`
   gap: 3rem;
   justify-content: center;
 }`;
+
+/* This is a function that is returning a JSX element. */
 
 export const Works = () => {
   const [item, setItem] = useState({ name: "all" });

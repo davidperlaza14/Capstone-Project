@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const ContactWrapper = styled.section`
 .contact__container {
   grid-template-columns: repeat(2, max-content);
@@ -112,6 +114,12 @@ export const ContactWrapper = styled.section`
 .contact__form-area textarea {
   resize: none;
 }`;
+
+
+/**
+ * A function that returns a JSX element.
+ * @returns A function that returns a JSX element.
+ */
 
 export const Contact = () => {
   return (

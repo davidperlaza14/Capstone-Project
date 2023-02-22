@@ -2,6 +2,8 @@
 import styled from 'styled-components';
 import { TecnologyItem } from '../tecnology-item/TecnologyItem';
 
+/* A styled component. */
+
 export const UserCardWrapper = styled.article`
   & {
     display: flex;
@@ -60,6 +62,8 @@ export const UserCardWrapper = styled.article`
   }
 
 `;
+
+/* A function that returns a component. */
 
 export const UserCard = ({ img, name, description, tecnologies }) => (
   <UserCardWrapper>
