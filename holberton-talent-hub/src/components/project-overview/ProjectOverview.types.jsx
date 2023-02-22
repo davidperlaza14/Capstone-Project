@@ -1,3 +1,7 @@
+/**
+ * A constructor function that creates a new object with the properties passed in the parameters.
+ */
+
 export function Tecnology({ icon, name } = {}) {
   this.icon = icon;
   this.name = name;

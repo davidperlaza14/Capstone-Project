@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import { Search, KeyboardArrowUp } from '@mui/icons-material/';
-
 import { ProjectItem } from '../components/project-item/ProjectItem';
+
+/* A styled component. */
 
 export const ProjectsPageWrapper = styled.section`
   & main {
@@ -134,6 +135,8 @@ export const ProjectsPageWrapper = styled.section`
     color: white;
   }
 `;
+
+/* A function that returns a styled component. */
 
 export const ProjectsPage = () => {
   const [show, setShow] = useState(false);

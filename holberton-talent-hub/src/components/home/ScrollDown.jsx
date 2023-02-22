@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const ScrollWrapper = styled.section`
 .home__scroll {
   margin-left: 9.25rem;

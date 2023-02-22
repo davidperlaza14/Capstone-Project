@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Info } from "./Info";
-import certificado_HB from "../../assets/certificado_HB.jpg";
+import certificado from "../../assets/holbertoncertificado.png";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
 /* A styled component. */
@@ -27,7 +27,7 @@ export const AboutWrapper = styled.section`
 }
 
 .about__img {
-    width: 350px;
+    width: 450px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -67,7 +67,7 @@ export const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__constainer constainer grid">
-          <img src={certificado_HB} alt="" className="about__img" />
+          <img src={certificado} alt="" className="about__img" />
           <div className="about__data">
             <Info />
             <p className="about__description"> BackEnd Developer.

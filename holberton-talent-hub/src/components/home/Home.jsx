@@ -5,6 +5,8 @@ import { Data } from "./Data";
 import { ScrollDown } from "./ScrollDown";
 import talent1 from '../../assets/talent1.jpg';
 
+/* A styled component. */
+
 export const HomeWrapper = styled.section`
 * {
   margin: 0;
@@ -50,6 +52,8 @@ align-items: center;
 }
 `;
 
+
+/* A function that returns a JSX element. */
 
 export const Home = () => {
   return (

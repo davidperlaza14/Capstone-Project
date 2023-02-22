@@ -32,6 +32,8 @@ export const WorksWrapper = styled.section`
   justify-content: center;
 }`;
 
+/* A function that is being exported. */
+
 export const Works = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);

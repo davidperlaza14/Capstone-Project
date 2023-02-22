@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 
+/* A styled component. */
+
 export const WorkItemsWrapper = styled.section`
 .work__card {
   background-color: var(--container-color);

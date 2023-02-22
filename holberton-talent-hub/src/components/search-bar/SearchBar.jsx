@@ -2,6 +2,8 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { Search, KeyboardArrowUp } from '@mui/icons-material/';
 
+/* A styled component. */
+
 export const SearchBarWrapper = styled.div`
   & {
     margin: 0px;
