@@ -16,13 +16,13 @@ export const QualificationWrapper = styled.section`
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color);
+  color: #fff;
   margin: 0 var(--mb-1);
   cursor: pointer;
 }
 
 .qualification__button:hover{
-  color: #1EB698;
+  color: #1CB698;
 }
 
 .qualification__icon {
@@ -31,7 +31,7 @@ export const QualificationWrapper = styled.section`
 }
 
 .qualification__active {
-  color: var(--title-color-dark);
+  color: #fff;
 }
 
 .qualification__sections {

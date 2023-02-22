@@ -85,7 +85,7 @@ export const ContactWrapper = styled.section`
   height: 100%;
   border: 2px solid #098177;
   background: none;
-  color: var(--text-color);
+  color: #fff;
   outline: none;
   border-radius: 0.75rem;
   padding: 1.5rem;
