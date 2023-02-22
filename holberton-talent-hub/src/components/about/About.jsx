@@ -5,6 +5,10 @@ import certificado_HB from "../../assets/certificado_HB.jpg";
 import CV from "../../assets/CV-David-Stiven-Perlaza-Valencia-CV.pdf";
 
 export const AboutWrapper = styled.section`
+* {
+  font-size: 20px;
+}
+
 .about__constainer{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;

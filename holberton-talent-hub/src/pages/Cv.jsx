@@ -179,17 +179,12 @@ export const CvPage = () => {
     <>
       <CvPageWrapper>
         <section id="inicio" className="inicio">
-          {/* {userId} ? ( 
-        <h1>CV of {userId}</h1>*/}
           <Home />
           <About />
           <Skills />
           <Qualification />
           <Work />
           <Contact />
-          {/* ) : ( */}
-
-          {/* ) */}
         </section>
       </CvPageWrapper>
     </>

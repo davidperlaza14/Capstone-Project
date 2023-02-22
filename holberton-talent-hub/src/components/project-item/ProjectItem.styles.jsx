@@ -36,7 +36,7 @@ export const ProjectItemWrapper = styled.section`
 
   & header h1 {
     text-align: center;
-    color: #8beeee;
+    color: #098177;
     font-size: 30px;
   }
 
@@ -58,3 +58,4 @@ export const ProjectItemWrapper = styled.section`
   &:hover {
     box-shadow: 0px 0px 0px 1px inset #8beeee;
   }`;
+

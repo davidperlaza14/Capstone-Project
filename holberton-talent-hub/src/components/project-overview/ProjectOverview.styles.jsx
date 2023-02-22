@@ -18,7 +18,7 @@ export const SlideWrapper = styled.section`
 
   & h1 {
     align: center;
-    color: #8beeee;
+    color: #098177;
     font-size: 40px;
   }
 

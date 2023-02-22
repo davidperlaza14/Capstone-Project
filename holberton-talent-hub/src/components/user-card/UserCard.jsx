@@ -12,8 +12,7 @@ export const UserCardWrapper = styled.article`
     border: 1px solid black;
     background-color: #1e2326;
     color: white;
-    font-family: 'Inconsolata', 'Sans serif';
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 20px;
     line-height: 20px;
     text-align: justify;

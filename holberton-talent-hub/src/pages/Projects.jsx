@@ -59,7 +59,7 @@ export const ProjectsPageWrapper = styled.section`
     border-radius: 5px;
     border-color: gray;
     border-style: double;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   & .input-number {
@@ -78,7 +78,7 @@ export const ProjectsPageWrapper = styled.section`
     color: white;
     height: 40px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 6px;
     background: #098177;
   }
@@ -97,7 +97,7 @@ export const ProjectsPageWrapper = styled.section`
     border: none;
     color: white;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 6px;
     background: #098177;
   }
@@ -108,7 +108,7 @@ export const ProjectsPageWrapper = styled.section`
     margin: 0 15px;
     color: #064f49;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 6px;
     cursor: pointer;
   }
@@ -123,7 +123,7 @@ export const ProjectsPageWrapper = styled.section`
     border: 2px solid #000;
     color: #064f49;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 6px;
     margin: 0 10px;
     cursor: pointer;

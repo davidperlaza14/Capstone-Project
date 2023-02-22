@@ -16,7 +16,6 @@ export const HeaderWrapper = styled.header`
   }
 
   & .logo a {
-    font-family: 'Inconsolata', monospace;
     font-size: 36px;
     color: #1cb698;
     text-decoration: none;

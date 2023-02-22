@@ -48,6 +48,6 @@ export const FooterWrapper = styled.footer`
     top: 0px;
     border-radius: 50%;
     line-height: 50px;
-    font-size: 18px;
+    font-size: 20px;
   }
 `;
