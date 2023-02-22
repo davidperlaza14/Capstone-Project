@@ -75,12 +75,7 @@ export const ProjectsPageWrapper = styled.section`
 /* A React component. */
 
 export const ProjectsPage = () => {
-<<<<<<< HEAD
-  const [show, setShow] = useState(false);
-  const projects = [{}, {}, {}, {}];
-=======
   const projects = [{}, {}, {}];
->>>>>>> f311d700cc470edd0999e1f8ff096533ca1d7c30
   return (
     <ProjectsPageWrapper>
       <div className="container-projects">
