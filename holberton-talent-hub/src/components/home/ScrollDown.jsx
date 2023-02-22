@@ -43,12 +43,12 @@ export const ScrollDown = () => {
               strokeMiterlimit: "1.5",
             }}
           >
-            {/* <path
+            <path
               class="wheel"
               d="M123.359,79.775l0,72.843"
               style={{
                 fill: "none",
-                stroke: "#000",
+                stroke: "#fff",
                 strokeWidth: "20px",
               }}
             ></path>
@@ -57,10 +57,10 @@ export const ScrollDown = () => {
               d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
               style={{
                 fill: "none",
-                stroke: "#000",
+                stroke: "#fff",
                 strokewidth: "20px",
               }}
-            ></path> */}
+            ></path>
           </svg>
           <span className="home__scroll-name"> ScrollDown</span>
           <i class="uil uil-arrow-down home__scroll-arrow"></i>
