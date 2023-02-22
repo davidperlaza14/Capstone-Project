@@ -8,16 +8,10 @@ export const ProjectsPageWrapper = styled.section`
   & main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding-inline: 20px;
-  }
-
-  & main {
+    gap: 2rem;
+    margin-inline: auto;
     padding-block-start: 80px;
-  }
-
-  & .container-projects {
-    background: #2d333d;
+    max-width: 90%;
   }
 
   & .center-container {
@@ -40,7 +34,6 @@ export const ProjectsPageWrapper = styled.section`
     justify-content: center;
     padding: 10px;
     width: 100%;
-    background: #2d333d;
     z-index: 1;
   }
 

@@ -8,9 +8,8 @@ export const ProjectItemWrapper = styled.section`
     padding: 0 20px;
     display: grid;
     grid-template: 'figure header' 3.5rem 'figure main' 1fr / calc(10rem + 12vw) 1fr;
-    gap: 20px;
     cursor: pointer;
-    box-shadow: 0px 0px 0px 1px inset #8beeee70;
+    box-shadow: 0px 0px 0px 1px inset #8beeee70, 0 6.5rem 0 0 inset rgb(9 129 119);
     border-radius: 20px;
   }
 
@@ -36,7 +35,7 @@ export const ProjectItemWrapper = styled.section`
 
   & header h1 {
     text-align: center;
-    color: #098177;
+    color: white;
     font-size: 30px;
   }
 
@@ -56,6 +55,6 @@ export const ProjectItemWrapper = styled.section`
 
 
   &:hover {
-    box-shadow: 0px 0px 0px 1px inset #8beeee;
+    box-shadow: 0px 0px 0px 1px inset #8beeee, 0 6.5rem 0 0 inset rgb(9 129 119);
   }`;
 
