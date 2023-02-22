@@ -7,7 +7,7 @@ import { Backend } from './Backend';
 
 export const SkillWrapper = styled.section`
   & * {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .skills__container {

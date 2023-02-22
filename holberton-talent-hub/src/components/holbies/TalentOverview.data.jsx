@@ -15,8 +15,6 @@ export const imagesRaw = [pro, pro1, pro2];
   (img) => new GaleryItemImage({ img, thumbnail: img })
 ); */
 
-/* Creating a new array of objects. */
-
 export const usersTalent = [
   new UserTalet({
     img: { src: talent1, alt: "Kofi Kaba" },

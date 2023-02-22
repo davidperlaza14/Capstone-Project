@@ -1,8 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
 
-/* A styled component. */
-
 export const WorkItemsWrapper = styled.section`
 .work__card {
   background-color: var(--container-color);
@@ -18,16 +16,14 @@ export const WorkItemsWrapper = styled.section`
 }
 
 .work__title {
-  font-size: 20px;
-  font-weight: 900;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
 } 
 
 .work__button {
   color: var(--text-color);
-  font-size: 20px;
-  font-weight: 100;
-  font-variant: all-small-caps;
+  font-size: var(--small-font-size);
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
@@ -41,8 +37,6 @@ export const WorkItemsWrapper = styled.section`
 .work__button:hover .work__button-icon {
   transform: translateX(00.25rem);
 }`;
-
-/* This is a functional component that is returning a styled component. */
 
 export const WorkItems = ({ item }) => {
   return (

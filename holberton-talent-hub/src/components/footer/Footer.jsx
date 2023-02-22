@@ -6,7 +6,6 @@ import logoHb from "../../images/logohb.fw.png"
  * class of logo
  * @returns A Footer component with a div with a class of redes and an img with a class of logo.
  */
-
 export const Footer = () => {
   return (
     <FooterWrapper>

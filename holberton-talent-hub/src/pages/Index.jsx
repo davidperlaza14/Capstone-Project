@@ -5,7 +5,7 @@ export const TitleIndex = styled.section`
 & .main-title {
 	text-align: center;
 	font-family: Inconsolata;
-	color: #821410;
+	color: #e1003c;
   font-size: 30px;
 }
 `;
@@ -18,7 +18,7 @@ export const IndexWrapper = styled.section`
   background-size: 100%;
   background-position: top;
   height: 100vh;
-  color: #821410;
+  color: #e1003c;
   display: flex;
   align-items: flex-start;
   font-size: 20px;
@@ -37,8 +37,8 @@ body{
     background-color: #151320;
 }
 div{
-    height: 280px;
-    width: fit-content;
+    height: 360px;
+    width: 380px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -49,8 +49,8 @@ div{
 }
 div:before{
     content: "";
-    height: 150%;
-    width: 150%;
+    height: 160%;
+    width: 160%;
     position: absolute;
     background: conic-gradient(
         #098176,

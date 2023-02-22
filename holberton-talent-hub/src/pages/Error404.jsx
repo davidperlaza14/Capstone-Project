@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-/* A styled component. */
-
 export const Error404PageWrapper = styled.section`
 .ErrorText {
   color: white;

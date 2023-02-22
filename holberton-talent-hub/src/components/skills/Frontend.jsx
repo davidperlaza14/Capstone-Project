@@ -46,7 +46,7 @@ export const FrontendWrapper = styled.section`
   }
 
   .skills__level {
-    font-weight: 100;
+    font-weight: inherit;
     font-size: var(--normal-font-size);
   }
 `;

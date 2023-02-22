@@ -1,7 +1,3 @@
-/**
- * A function that returns an object.
- */
-
 export function Tecnology({ icon, name } = {}) {
   this.icon = icon;
   this.name = name;

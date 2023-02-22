@@ -1,25 +1,46 @@
+import { useState } from 'react';
 import styled from 'styled-components';
-import { ProjectItem } from '../components/project-item/ProjectItem';
-import { SearchBar } from '../components/search-bar/SearchBar';
+import { Search, KeyboardArrowUp } from '@mui/icons-material/';
 
-/* A styled component. */
+import { ProjectItem } from '../components/project-item/ProjectItem';
 
 export const ProjectsPageWrapper = styled.section`
   & main {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-inline: auto;
-    padding-block-start: 80px;
-    max-width: 90%;
+    gap: 20px;
+    padding-inline: 20px;
   }
 
+  & main {
+    padding-block-start: 80px;
+  }
+
+  & .container-projects {
+    background: #2d333d;
+  }
+
+  & .center-container {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: #2d333d;
+    z-index: 1;
+    height: 85px;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 0px 1px #8beeee;
+  }
   .center-container-footer {
     margin: 0px;
     display: flex;
     justify-content: center;
     padding: 10px;
     width: 100%;
+    background: #2d333d;
     z-index: 1;
   }
 
@@ -31,6 +52,16 @@ export const ProjectsPageWrapper = styled.section`
     border: 1px solid blue;
   }
 
+  & .input-search {
+    margin-right: 35px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: double;
+    font-size: 16px;
+  }
+
   & .input-number {
     height: 40px;
     padding: 5px;
@@ -39,13 +70,45 @@ export const ProjectsPageWrapper = styled.section`
     border-style: double;
   }
 
+  & .button-search {
+    box-shadow: 2px 2px #000;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #098177;
+  }
+
+  & .button-search:hover {
+    background: #064f49;
+  }
+
+  & .button-activation-search {
+    position: absolute;
+    right: 20px;
+    transition: all 0.5s;
+    box-shadow: 2px 2px #000;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #098177;
+  }
+
   & .button-three {
     border: 2px solid #000;
     padding: 10px 8px;
     margin: 0 15px;
     color: #064f49;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 6px;
     cursor: pointer;
   }
@@ -60,7 +123,7 @@ export const ProjectsPageWrapper = styled.section`
     border: 2px solid #000;
     color: #064f49;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 6px;
     margin: 0 10px;
     cursor: pointer;
@@ -72,14 +135,26 @@ export const ProjectsPageWrapper = styled.section`
   }
 `;
 
-/* A React component. */
-
 export const ProjectsPage = () => {
+  const [show, setShow] = useState(false);
   const projects = [{}, {}, {}];
   return (
     <ProjectsPageWrapper>
       <div className="container-projects">
-        <SearchBar />
+        <div className="center-container" style={{ top: show ? '80px' : '0px' }}>
+          <input className="input-search" type="text" placeholder="Search" />
+          <button className="button-search" type="button">
+            Search
+          </button>
+          <button
+            className="button-activation-search"
+            type="button"
+            style={{ top: show ? '25px' : 'calc(100% + 20px)' }}
+            onClick={() => setShow(!show)}
+          >
+            {show ? <KeyboardArrowUp /> : <Search />}
+          </button>
+        </div>
         <main>
           {projects.map((project, key) => (
             <ProjectItem key={key} {...project} />

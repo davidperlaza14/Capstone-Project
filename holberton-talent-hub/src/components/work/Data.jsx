@@ -5,8 +5,6 @@ import work4 from '../../assets/work4.jpg';
 import work5 from '../../assets/work5.jpg';
 
 
-/* Creating an array of objects. */
-
 export const projectsData = [
   {
     id: 1,

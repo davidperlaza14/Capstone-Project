@@ -8,8 +8,6 @@ import talent3 from "../../images/talent03.jpg";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { GaleryItemImage, Tecnology, UserTalet } from "./ProjectOverview.types";
 
-/* Creating a new array of objects with the same properties. */
-
 export const imagesRaw = [pro, pro1, pro2];
 export const images = imagesRaw.map(
   (img) => new GaleryItemImage({ img, thumbnail: img })

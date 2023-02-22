@@ -11,13 +11,6 @@ import { LocalStorageKeys } from './core/constants';
 import { Route } from './core/router/Route';
 import { Router } from './core/router/Router';
 import { ProjectPage } from './pages/Project';
-import { ContactPage } from './pages/Contact';
-
-/**
- * It renders the header, the main content, and the footer
- * @returns The return value of the function is the return value of the last statement in the function
- * body.
- */
 
 const App = () => {
   const { pathname } = window.location;
@@ -28,8 +21,6 @@ const App = () => {
     new Route({ path: /^\/projects\/{0,1}$/, component: ProjectsPage }),
     new Route({ path: /^\/project\/{0,1}$/, component: ProjectPage }),
     new Route({ path: /^\/talent\/{0,1}$/, component: TalentPage }),
-    new Route({ path: /^\/cv\/?$/, component: CvPage }),
-    new Route({ path: /^\/contact\/?$/, component: ContactPage }),
     new Route({ path: /^\/.*/, component: Error404Page }),
   ];
 

@@ -1,8 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
 
-/* A styled component. */
-
 export const ScrollWrapper = styled.section`
 .home__scroll {
   margin-left: 9.25rem;
@@ -23,13 +21,6 @@ export const ScrollWrapper = styled.section`
   font-size: 1.25rem;
   color: var(--title-color);
 }`;
-
-/**
- * It's a function that returns a div with a link to the about section of the page
- * @returns A ScrollWrapper component with a div with a class of home__scroll. Inside the div is an a
- * tag with a class of home__scroll-button button--flex. Inside the a tag is a svg, a span with a class
- * of home__scroll-name, and an i tag with a class of uil uil-arrow-down home__scroll-arrow.
- */
 
 export const ScrollDown = () => {
   return (

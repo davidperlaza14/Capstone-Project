@@ -69,7 +69,7 @@ export const QualificationWrapper = styled.section`
     font-variant: all-small-caps;
     font-size: 20px;
     margin-bottom: var(--mb-1);
-    font-weight: 100;
+    font-weight: inherit;
     color: #1cb698;
   }
 
@@ -77,7 +77,7 @@ export const QualificationWrapper = styled.section`
     font-size: 20px;
     font-variant: all-small-caps;
     color: #fff;
-    font-weight: 100;
+    font-weight: inherit;
   }
 
   .qualification__rounder {

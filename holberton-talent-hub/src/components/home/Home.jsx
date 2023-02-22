@@ -5,8 +5,6 @@ import { Data } from "./Data";
 import { ScrollDown } from "./ScrollDown";
 import talent1 from '../../assets/talent1.jpg';
 
-/* A styled component. */
-
 export const HomeWrapper = styled.section`
 * {
   margin: 0;
@@ -52,17 +50,6 @@ align-items: center;
 }
 `;
 
-
-/**
- * The Home function returns a HomeWrapper component that contains a section with a class of home and
- * an id of home. 
- * The section contains a div with a class of home__container and a class of container and a class of
- * grid. 
- * The div contains a div with a class of home__contect and a class of grid. 
- * The div contains a Social component, a div with a class of home__img, and a Data component. 
- * The div also contains a ScrollDown component.
- * @returns A function that returns a JSX element.
- */
 
 export const Home = () => {
   return (

@@ -34,11 +34,11 @@ export const Header = () => {
               TALENT
             </a>
           </li>
-          {/*           <li>
+          <li>
             <a href="/team coderise" onClick="seleccionar()">
               TEAM CODERISE
             </a>
-          </li> */}
+          </li>
           <li>
             <a href="/contact" onClick="seleccionar()">
               CONTACT

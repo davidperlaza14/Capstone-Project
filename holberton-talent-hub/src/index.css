@@ -22,5 +22,6 @@ code {
 }
 
 html {
+  /* me permite deslizar cuando hago clic en los links del menu */
   scroll-behavior: smooth;
 }
