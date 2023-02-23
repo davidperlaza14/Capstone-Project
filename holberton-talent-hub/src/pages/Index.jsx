@@ -12,14 +12,6 @@ export const TitleIndex = styled.section`
   font-size: 30px;
   -webkit-text-stroke: 0.2px #fff;
 }
-<<<<<<< HEAD
-& .h1 {
-	border-width: 1px;
-  border-style: solid;
-  border-color: ;
-}
-=======
->>>>>>> bcc05004974140e8973cc6ecafd6e4519cd2591d
 `;
 
 /* A CSS code that is used to style the page. */
