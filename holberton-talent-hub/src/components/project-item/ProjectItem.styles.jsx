@@ -13,6 +13,7 @@ export const ProjectItemWrapper = styled.section`
     cursor: pointer;
     box-shadow: 0px 0px 0px 1px inset #8beeee70, 0 6.5rem 0 0 inset #2D333D;
     border-radius: 20px;
+    max-width: 90%;
   }
 
   & figure {
