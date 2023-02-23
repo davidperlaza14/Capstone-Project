@@ -21,6 +21,7 @@ export const HeaderWrapper = styled.header`
     font-size: 36px;
     color: #1cb698;
     text-decoration: none;
+    font-weight: bold;
   }
 
   & ul {
