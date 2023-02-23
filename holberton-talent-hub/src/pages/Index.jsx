@@ -7,6 +7,14 @@ export const TitleIndex = styled.section`
 	font-family: Inconsolata;
 	color: #e1003c;
   font-size: 30px;
+  -webkit-text-stroke: 0.2px #fff;
+}
+
+& .h1 {
+	border-width: 1px;
+  border-style: solid;
+  border-color: ;
+  
 }
 `;
 

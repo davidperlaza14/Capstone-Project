@@ -20,11 +20,6 @@ export const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/cv" onClick={linkToInAnchor({ userId: 19732 })}>
-              CV
-            </a>
-          </li>
-          <li>
             <a href="/projects" onClick={linkToInAnchor()}>
               PROJECTS
             </a>
@@ -35,14 +30,19 @@ export const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/team coderise" onClick="seleccionar()">
-              TEAM CODERISE
+            <a href="/cv" onClick={linkToInAnchor({ userId: 19732 })}>
+              CV
             </a>
           </li>
           <li>
-            <a href="/contact" onClick="seleccionar()">
+            {/* <a href="/team coderise" onClick="seleccionar()">
+              TEAM CODERISE
+            </a> */}
+          </li>
+          <li>
+            {/* <a href="/contact" onClick="seleccionar()">
               CONTACT
-            </a>
+            </a> */}
           </li>
         </ul>
       </nav>
