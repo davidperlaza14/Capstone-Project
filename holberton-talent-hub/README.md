@@ -7,10 +7,10 @@ ___
 ## Technologies used in the project :fire:
 
 * React
+* Javascript
 * Typescript
 * React Router
 * Styled components
-* MUI icon-material
 
  ___
  
@@ -20,7 +20,6 @@ ___
  * npm install --save devicon
  * npm install react-image-gallery
  * npm install @mui/icons-material
- * figma
 
 ___
 
@@ -39,27 +38,42 @@ ___
 
 ## Components created folder :dart:
 
-* header
-* footer
-* holbies
-* project-item 
-* project-overview
-* tecnology-item
-* used-card
-* search-bar
-* home
-* about
-* skills
-* qualification
-* work
-* contact
+| Components | Description |
+| --- | --- |
+| `header` | header the pages |
+| `footer` | footer the pages |
+| `holbies` | contains information about the holbies |
+| `project-item ` | contains information about captone projects |
+| `project-overview` | contains information on the details of captone projects |
+| `tecnology-item` | contains information on the technologies learned |
+| `used-card` | contains reusable holbie information |
+| `search-bar` | button and search bar |
+| `home` | CV component |
+| `about` | CV component |
+| `skills` | CV component |
+| `qualification` | CV component |
+| `work` | CV component |
+| `contact` | CV component |
+
 
 ___
 
 ## Initialize the application :fire:
 
+1. git clone repository```
+
+2. install in terminal
+
+```
+npm install --save styled-components
+npm install --save devicon
+npm install react-image-gallery
+npm install @mui/icons-material 
+```
+3. initialize
+
 ```npm start```
-```npm run```
+
 
 ___
 
